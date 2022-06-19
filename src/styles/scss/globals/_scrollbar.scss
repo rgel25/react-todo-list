@@ -1,0 +1,18 @@
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--very-dark-grayish-blue) var(--light-grayish-blue);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--light-grayish-blue);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--very-dark-grayish-blue);
+}
